@@ -1,41 +1,41 @@
-/*gold styles */
+
 body {
     font-family:'helvetica neue', Arial,  sans-serif;
     margin : 0 ;
     padding: 0 ;
     background-color:#f3f3f4;
-    color: #333;
+    color: #0c0c0c;
     line-height: 1.6;
 }
-/*header*/
+
 header {
-    background: linear-gradient (to right,#1ed6ff,#00bfff);
-    background-color: #ff1ee9;
+    background: linear-gradient (to right,#8a85f7,#92dff9);
+    background-color: #1fb1ef;
     color:rgb(255, 255, 255);
     text-align: center;
     padding:40px 20px;
     box-shadow:0px 4px 8px rgba(0,0,0,0.1);
+}
+header h1{
+    font-size :3rem;
+    margin:0;
+    letter-spacing: 2px;
+    background-color: rgb(79, 102, 255);
     }
-    header h1{
-        font-size :3rem;
-        margin:0;
-        letter-spacing: 2px;
-    }
-    h2{
-        background-color: #ff1ee9;
+h2{
+    background-color: #24dbe1;
 
-    }
-    header p{ 
-        margin-top:10px ;
-        font-size:1.2rem ;
-        color: #111010;
-    }
-    nav {
-        background-color: deeppink; 
-        padding: 15px;
-        box-shadow: 0ox 4px rgba(0,0,0,0.1);
-        position: sticky;
-        top: 0;
-        z-index: 100;
-    }
-    
+}
+header p{ 
+    margin-top:10px ;
+    font-size:1.2rem ;
+    color: #111010;
+}
+nav {
+    background-color: rgb(55, 109, 235); 
+    padding: 15px;
+    box-shadow: 0ox 4px rgba(0,0,0,0.1);
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
